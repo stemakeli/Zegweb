@@ -1,0 +1,77 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+
+body { font-family: Georgia, 'Times New Roman', Times, serif; text-align:center;}
+
+.coffee { background-image: url("coffee.png");
+  background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+  background-size: cover;}
+  
+
+h1 { font-size: 1.5em; color: #ffffff; position: absolute; margin: 20px;}
+
+header, footer { background: #8b008b; color: #ffffff;}
+nav, aside { background: #b97930fa;}
+
+
+
+
+
+div.grid-container { 
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 10% 15% 60% 10% 5%;
+
+}
+img.coff {border: 5px solid  #8b008b; box-shadow: 10px 10px #b97930fa; margin-top: 10em;}
+
+header { grid-column: span 10;}
+nav    { grid-column: span 10;}
+main   { grid-column: span 10;}
+aside  { grid-column: span 10;}
+footer { grid-column: span 10;}
+
+header { display: flex; align-items: center;}
+
+header > div { padding: 0 1em;}
+header > div:nth-child(4) { margin: 0 0 0 auto;}
+
+header, nav, main, aside, footer { font-size: 1em;}
+
+a  { color: #000000; text-decoration: none;}
+a:hover { color: #ffffff;}
+
+/*.button { position: absolute; text-decoration: none; height:2.5em; width: 5em; background-color: #273c75;color: #ffff; padding: 0.6em; margin: 28em 0em 0em -15em;}*/
+
+button { position:absolute; margin: 28em 0em 0em -14.5em ; background-color: #806d00; border: 2px solid #000000; font-size: 1em;}
+button:hover { background-color: #696969;}
+
+@media screen and ( min-width:600px)
+              and ( max-width:992px) {
+                div.grid-container {
+                  grid-template-rows: 10% 75% 10% 5%;}
+
+                  nav { grid-column: span 2;}
+                  main { grid-column: span 8;}
+                  h1 { font-size: 2em; color: #ffffff; margin: 20px;}
+                  header, nav, main, aside, footer { font-size: 1.5em;}
+                  button { text-decoration: none; position:absolute; margin:22em 0em 0em -10em ; background-color: #806d00; border: 2px solid #000000;}
+                }
+                
+@media screen and (min-width:992px ) {
+
+  div.grid-container {
+    grid-template-rows: 10% 85% 5% ;}
+
+    nav { grid-column: span 2;}
+    main { grid-column: span 6;}
+    aside { grid-column: span 2;}
+    h1 { font-size: 3em; color: #ffffff; margin: 20px; background-color: #00000080;}
+    header, nav, main, aside, footer { font-size: 2em;}
+    button { text-decoration: none; position:absolute; margin: 19em 0em 0em -8em;  background-color: #806d00; border: 2px solid #000000;}
+    
+  }
+  
+

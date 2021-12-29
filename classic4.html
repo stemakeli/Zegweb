@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Breakpoints</title>
+<style>
+
+* { margin : 0 ; padding : 0 ; box-sizing : border-box ; font : 1em sans-serif ; text-align :  center ; }
+
+header, footer { background : #7e8000 ; color : White ;  }
+
+nav, aside { background : #23b98c ; }
+
+h1 { font-size: 2.5em; background-color: #23a7b8;}
+
+p{  font-size: 1.5em;}
+
+div.grid-container {
+    display : grid ;  
+	width : 100vw ; 
+	height : 100vh ;
+    grid-template-columns : repeat(10, 1fr ) ;
+    grid-template-rows: 10% 15% 60% 10% 5% ; 
+}
+
+header	{ grid-column : span 10 ; }
+nav	{ grid-column : span 10 ; }
+main { grid-column : span 10 ; }
+aside { grid-column : span 10 ; }
+footer	{ grid-column : span 10 ; }
+
+header { display : flex ; align-items : center ; }
+header > div { padding : 0 1em ; }
+header > div:nth-child(3) { margin : 0 0 0 auto ; }
+
+a  { color: #000000; text-decoration: none;}
+a:hover { color: #ffffff;}
+
+/*.button { position: absolute; text-decoration: none; height:2.5em; width: 5em; background-color: #273c75;color: #ffff; padding: 0.6em; margin: 28em 0em 0em -15em;}*/
+
+button { position:absolute; margin: 12em 0em 0em -2em ; background-color: #806d00; border: 2px solid #000000; font-size: 1.5em;}
+button:hover { background-color: #696969;}
+
+@media screen and ( min-width:600px ) and ( max-width:992px ) {
+
+	div.grid-container { grid-template-rows: 10% 75% 10% 5% ; }
+	
+	nav	{ grid-column : span 2 ; }
+	main { grid-column : span 8 ; }
+
+	header, footer { background : #2f8000 ; color : #85e2de ;  }
+
+     nav, aside { background : #84b923 ; }
+
+	 button { background-color: #2f8000;}
+}
+
+@media screen and ( min-width:992px ) {
+
+	div.grid-container { grid-template-rows: 10% 85% 5% ; }
+	
+	nav	{ grid-column : span 2 ; }
+	main { grid-column : span 6 ; }
+	aside { grid-column : span 2 ; }
+
+	header, footer { background : #db4a07 ; color : #dfb708 ;  }
+
+     nav, aside { background : #a32b31 ; }
+
+	 button { background-color: #db4a07;}
+}
+
+</style> 
+</head>
+<body>
+
+<div class="grid-container">
+
+<header>
+	<div>Home</div>
+    <div>News</div>
+    <div>Logout</div>
+</header>
+
+<nav>Menu</nav>
+<main><h1>The classic template</h1><br>
+	<p>This setup changes as you re-size the window from <br> Desktop - Tablet - Mobile <br>
+	
+	Give it a try!<br>
+
+Take the pionter to the top corner of the screen and drag across to make the window smaller.<br>
+
+Watch how the text and the colours change.
+
+</p>
+
+<button><a href="templates.html">Go Back</a></button>
+
+
+
+</main>
+<aside>Aside</aside>
+ 
+<footer>Footer</footer>
+
+</div>
+
+<script>
+
+</script>
+</body>
+</html>

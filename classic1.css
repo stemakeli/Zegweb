@@ -1,0 +1,144 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+body { font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;}
+
+p { font-size: 0.75em;} 
+
+.sa-col { background-image: url("sa calobra.png");
+  background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+  background-size: cover;}
+  
+  
+
+
+
+h1 { font-size: 2em; color: #000000; margin: 0em 0em 0em 1.75em; background-color: #8b008b80; height: 1.25em; width: 6em;}
+
+header, footer { background: #8b008b; color: #ffffff;}
+nav, aside { background: #b97930fa;}
+
+div.grid-container { 
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 12% 10% 55% 15% 8%;
+
+}
+
+img.cal { object-fit:none; border: 5px solid  #8b008b; box-shadow: 10px 10px #b97930fa; margin-top: 10px;}
+
+ul > li{ font-size:0.5em ; list-style-type: none; background-color: #ffffff; color: #000000; margin: 2.5em 1em 1em 1em; padding: 2px; border-radius: 20px;
+  width: 7em;
+   height: 1.5em; float: left;
+  }
+  .container { height: 2.5em; width: 2.5em;
+     margin: 0em 0em 0em 1em; background-image: url("ibutton.png"); background-repeat: no-repeat; background-size: cover;}
+
+  
+.button { position: absolute; text-decoration: none; height:2.5em; width: 5em; border: 2px solid #ffffff;
+  background-color: #273c75;color: #ffff; padding: 0.6em; margin: 2em 0em 0em -2em; font-size: 0.5em;}
+  .button:hover { color: #000000; background-color:#ffff00 ; transform:scale(2.0, 2.0 ); border: 2px solid #000000;}
+  
+      
+  #home { background-color: #00ffff; border-radius: 0em;}
+  #templates { background-color: #0000ff;border: 2px solid #000000; height: 5em; width: 5em;  border-radius:6em; padding-top: 1.5em;}
+  #shop { text-decoration: none; background-color: #b4152f; color: #f0fff0;}
+  #but { font-size: 0.75em; font-weight: bold;font-style: italic; margin:0em -1.5em 0em; color: #000000;}
+
+
+
+  
+  
+#home:hover { background-color: rgb(144, 214, 112); cursor: pointer; color: #ffffff;}
+#templates:hover { background-color: #e4c436; cursor: pointer;}
+#shop:hover { background-color: #0026ff;cursor: pointer; color: #000000;}
+#but:hover {cursor: pointer; color: #ffffff;}
+
+
+
+
+header { grid-column: span 10;}
+nav    { grid-column: span 10;}
+main   { grid-column: span 10;}
+aside  { grid-column: span 10;}
+footer { grid-column: span 10;}
+
+header { display: flex; align-items: center;}
+
+header > div { padding: 0 1em;}
+header > div:nth-child(3) { margin: 0 0 0 auto;}
+
+header, nav, main, aside, footer { font-size: 1.5em;}
+
+@media screen and ( min-width:38.5em ){
+
+
+  .button { position: absolute; text-decoration: none; height:2.5em; width: 5em; border: 2px solid #ffffff;
+    background-color: #273c75;color: #ffff; padding: 0.6em; margin: 1em 0em 0em -2em; font-size: 0.75em;}
+    .button:hover { color: #000000; background-color:#ffff00 ;}
+        
+
+
+                h1 { font-size: 2.5em; color: #000000; margin: 0em 0em 0em 3em; background-color: #8b008b80; height: 1.25em; width: 6em;} 
+                
+                
+
+ul > li{ font-size: 0.65em; list-style-type: none; background-color: #ffffff; color: #000000; margin: 0.5em 3em 1em 1.75em; padding: 2px; border-radius: 20px;
+  width: 7em;
+   height: 1.5em; float: left;
+  }
+
+  p { font-size: 1em;}
+  
+  .container{ margin: 0.75em 0em 1.5em 0em;}
+}
+
+
+
+@media screen and ( min-width:57.25em ){
+
+  .button { position: absolute; text-decoration: none; height:2.5em; width: 5em; border: 2px solid #ffffff;
+    background-color: #273c75;color: #ffff; padding: 0.6em; margin: 0.5em 0em 0em -2em; font-size: 1em;}
+    .button:hover { color: #000000; background-color:#ffff00 ;}
+
+  h1 { font-size: 3em; color: #000000; margin: 0em 0em 0em 3.75em; background-color: #8b008b80; height: 1.25em; width: 6em;} 
+                
+                
+
+  ul > li { font-size: 0.75em; list-style-type: none; background-color: #ffffff; color: #000000; margin: 1em 6em 1em 3em; padding: 2px; border-radius: 20px;
+    width: 7em;
+     height: 1.5em; float: left;
+    }
+
+
+    p { font-size: 1.3em;}
+
+    
+    
+
+
+.container{ margin: 0.75em 0em 1.5em 0em;}
+  
+}
+
+@media screen and ( min-width:67.25em ){
+
+  h1 { font-size: 3em; color: #000000; margin: 0em 0em 0em 9.80em; background-color: #8b008b80; height: 1.25em; width: 6em;} 
+                
+                
+
+  ul > li { font-size: 0.75em; list-style-type: none; background-color: #ffffff; color: #000000; margin: 1em 10em 1em 10em; padding: 2px; border-radius: 20px;
+    width: 7em;
+     height: 1.5em; float: left;
+    }
+
+
+    p { font-size: 1.5em;}
+
+    
+    
+
+
+.container{ margin: 0.75em 0em 2em 7em;}
+  
+}

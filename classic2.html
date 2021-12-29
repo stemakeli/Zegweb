@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Responsive Web Design</title>
+
+
+<style>
+
+* { margin : 0 ; padding : 0 ; box-sizing : border-box ; font : 1.025em sans-serif ; text-align : center ; }
+
+header, footer { background : #14c0d6 ; color : #000000 ;}
+
+nav, aside { background : #1b1d94 ; }
+
+a { text-decoration: none; background-color: #14c0d6; color: #000000;}
+a:hover { background-color: #c3d4f5; transform: scale(1.5, 1.5);}
+
+
+
+
+
+h1 { color:#1b1d94; background-color: #c3d4f5; font-size: 2em;}
+
+p { color: #08082c; font-size: 1.5em;}
+
+div.grid-container {
+    display : grid ;  
+	width : 100vw ; 
+	height : 100vh ;
+    grid-template-columns : repeat(10, 1fr ) ;
+    grid-template-rows : 10% 15% 60% 10% 5% ; 
+}
+
+header	{ grid-column : span 10 ; }
+nav	{ grid-column : span 10 ; }
+main { grid-column : span 10 ; }
+aside { grid-column : span 10 ; }
+footer	{ grid-column : span 10 ; }
+
+header { display : flex ; align-items : center ; }
+header > div { padding : 0 1em ; }
+header > div:nth-child(3) { margin : 0 0 0 auto ; }
+
+</style> 
+
+
+</head>
+<body>
+
+<div class="grid-container">
+
+<header>
+	<div>Home</div>
+    <div>News</div>
+    <div>Logout</div>
+</header>
+
+<nav>Menu</nav>
+<main><h1><b>The Classic setup</b></h1><br>
+    <p><b>A more conventional classic web page setup.<br>
+        This page can be re-sized without the use of "@media query" <br>
+        and so is a much simpler solution.<br>
+
+        Try re-sizing yourself!<br>
+
+        Place the mouse cursor at the corner of the screen and drag across to make the screen smaller. See how the text changes.</b></p> <br>
+
+        <button style="border: 2px solid #000000;"><a href="templates.html">Go Back</a></button>
+    </main>
+
+<aside>Aside</aside>
+ 
+<footer>Footer</footer>
+
+</div>
+
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,486 @@
+/* start with rules below to control webpage layout*/
+
+/*starting with small devices*/
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+body { font-family:  Georgia, 'Times New Roman', Times, serif; text-align: center; }
+main { background-image: url(baubles.png); background-repeat: no-repeat; background-size: cover;}
+
+  
+
+
+/*below settings for the main heading and sub headings*/
+
+h1 { font-size: 1.5em; color: #f14703; padding: 0px; 
+    margin: 0.3375em 0em 0em 0em; text-shadow:3px 1px 1px #ffffff;}
+    h2 { color:#ffffff; font-size: 1.75em; margin-top: 1em;}
+
+    h3 { color:#f14703; font-size: 1.5em; margin-top: 2em;text-shadow:1px 1px 1px #ffffff;}
+  
+    h4 { color:#ffffff; font-size: 1em; margin-top: 1em;}
+  
+    h5 { color:#f14703; font-size: 1em; margin-top: 1.5em;text-shadow:1px 1px 1px #ffffff;}
+
+    li, h6 { color: #ffffff; font-size: 1.3em; margin: 0em 0em 0em 1.5em; }
+
+    
+  
+   
+    
+  
+    /* Below are the container settings */
+
+        div.grid-container {
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: 10% 10% 64% 10% 6%;}
+
+            div.flex-container {
+                display: flex;
+                flex-flow:row;
+                height:auto;
+                justify-content:space-evenly ;
+                align-items: center;
+              }
+
+            div.flex-container >div {
+                padding:  0em 0em 0em 0em; background-color: #ecb603fa; border: 3px solid #000000; border-radius: 1.25em; height: 2em
+                ; width: 10em; margin: 1em 0em 0em 0em; font-size: 0.65em;
+              }
+
+             
+
+
+              
+
+              
+
+              .container { position: absolute; height: 5.5em;width: 28em;
+            margin: 0em 0em 0em 1.5em;}
+
+            .container0 {
+                position:absolute;
+                margin: 19em 0em 0em 6em;
+                height: 4em;
+                width: 20em;}
+
+              .container1 {
+                position:absolute;
+                margin: 2em 0em 0em 5em;
+                height: 4em;
+                width: 20em;}
+
+                .container1a {
+                    position:absolute;
+                    margin: 1em 0em 0em 5em;
+                    height: 4em;
+                    width: 20em;}
+
+                
+                .container2 { position: absolute; height: 5.5em;width: 28em;
+                margin: 0em 0em 0em 1.5em;}
+
+
+                .container3 { position: absolute; height: 22em;width: 32em;
+                    margin: 0em 0em 0em 1em ; }
+
+                 .container4 { height: 32em; width: 30em; border: 2px solid #000000; margin: 1em 0em 0em 0.75em; background-color: #00000080;}
+
+                   
+                  
+                    
+                       
+
+                            
+    
+ /*Now the settings for {header, footer, nav, aside} below*/
+
+header { display:flow-root; text-align: center;}
+
+header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022d);
+        color: #06022d; color: #ffffff;}
+
+
+    header { grid-column: span 10;}
+    nav { grid-column: span 10}
+    main { grid-column: span 10}
+    aside { grid-column: span 10}
+    footer { grid-column: span 10;}
+        
+    /*Now below the wrapper settings*/
+
+    .wrapper { display:block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
+        background-image: url("coffeesm.png"); background-repeat: no-repeat; margin: 0em 0em 0em 0.5em;}
+
+        .wrapper1 { display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
+            background-image: url("jic.png"); background-repeat: no-repeat; margin: 0em 0em 0em -4.25em;}
+
+            .wrapper2 { display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
+                background-image: url("zegw.png"); background-repeat: no-repeat; margin: 0em 0em 0em 5.5em;}
+
+                .wrapper3 { display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
+                    background-image: url("pinkmas.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -13.5em;}
+          
+                    .wrapper4 { display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
+                          background-image: url("responsive.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -4em;}
+
+                          .wrapper5{ display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
+                            background-image: url("xmas.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 5.5em;}
+
+
+                            .wrapper7{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute;
+                                background-image: url("classic.png"); background-repeat: no-repeat; margin: 0.5em 0em 0em 2em; list-style-type: none;}
+    
+                                .wrapper9{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute; list-style-type: none;
+                                    background-image: url("green2.png"); background-repeat: no-repeat; margin: 0.5em 0em 0em -15em;}
+    
+             
+                                    .wrapper10{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute; list-style-type: none;
+                                        background-image: url("coffcup2.png"); background-repeat: no-repeat; margin: 10em 0em 0em -15em;}
+    
+                                        .wrapper11{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute; list-style-type: none;
+                                            background-image: url("responsive3.png"); background-repeat: no-repeat; margin: 10em 0em 0em 2em;}
+    
+    
+                            
+                                        
+        
+                            /* Below settings for social media*/
+
+
+                            .fa {
+                                padding: 0.5em;
+                                font-size:  1em;
+                                width:  2em;
+                                height: 2em;
+                                text-align: center;
+                                text-decoration: none;
+                                margin-top: 0.5;
+                               
+                            }
+                            
+                              .fa:hover {
+                                opacity: 1; color: #ff0000;
+                                 background-color: #000000;
+                            }
+                            
+                              .fa-facebook {
+                                background: #3B5998;
+                                color: white;
+                              }
+                            
+                              .fa-twitter {
+                                background: #55ACEE;
+                                color: white;
+                              }
+                            
+                              .fa-linkedin {
+                                background: #007bb5;
+                                color: white;
+                              }
+
+
+    /* Below css #id settings*/
+
+        #xmasoffer { font-size: 2em; color: #f14703; padding: 0px; 
+        margin: 1em 0em .05em 0em; text-shadow:2px 2px 2px #ffffff;}
+        #h6 { color:#f14703; font-size: 0.75em; margin-top: 0.75em;text-shadow:1px 1px 1px #ffffff;padding-top: 1em;}
+        #cofbrk { color: #ffffff; font-size: 0.75em; margin-top: 0.75em; 
+            padding-top: 1em; background-color: #00000080;} 
+        #desig { font-size: 0.5em;  margin-top: 2em;}
+
+        #zegfoot { float: right; margin: -2.5em 20em 0em 0em;}
+        
+        #zeg2 { float:left; margin: -2.5em 0em 0em 20em;}
+
+        #sel { font-size: 1.5em; color:#ffffff; padding: 0.5em; text-shadow: 2px 2px 2px #000000;}
+
+        #cl1 { font-size: 1em; margin: 5em 1em 0em 0em; font-weight: bold;}
+
+        #stars { background-image: url(stars.png); background-repeat: no-repeat; background-size: cover;}
+        #h1blk, #h2blk { font-size: 1.5em; color: #000000; padding: 0px; 
+            margin: 0.3375em 0em 0em 0em; text-shadow:1px 1px 1px #ffffff;}
+
+        #aim { font-size: 0.90em; background-color: #ffffff80; padding: 0.25em;}
+
+        #home, #templates, #ouraim, #contact  { text-decoration: none; color: #ffffff; padding: 0.15em;}
+
+        #home:hover, #ouraim:hover, #templates:hover, #contact:hover { background-color: #f14703; cursor: pointer; color:#000000;}
+
+        #home:visited, #ouraim:visited, #templates:visited, #contact:visited { color: #000000 ; text-decoration: none;}
+
+        #email { font-size: 1.5em; color: #ffffff;}
+
+        
+
+        
+/* Now on to medium devices with @media query*/
+
+@media only screen and ( min-width:37.5em ) 
+                and ( max-width:68em ) {
+                    /*setting font size for this screen*/
+
+                    
+
+/*Starting with grid-container settings*/
+
+
+div.grid-container {
+    grid-template-rows: 10% 73% 13% 8%;}
+
+    div.flex-container >div {
+        padding:  0em 0em 0em 0em; background-color: #ecb603fa; border: 3px solid #000000; border-radius: 1.25em; height: 2em
+        ; width: 10em; margin: 1.5em 0em 0em 0em; font-size: 0.65em;} 
+
+        .container { position: absolute; height: 35em; width: 11em;
+        margin: 1em 0em 0em 0.5em;}
+
+        .container0 {
+            position:absolute;
+            margin: 27.5em 0em 0em 14em;
+            height: 4em;
+            width: 20em;}
+
+        .container1 {
+            position:absolute;
+            margin: 2em 0em 0em 14em;
+            height: 4em;
+            width: 20em;}
+
+
+            .container1a {
+                position:absolute;
+                margin: 2em 0em 0em 14em;
+                height: 4em;
+                width: 20em;}
+
+
+            .container2 { position: absolute; height: 7em;width: 40em; 
+            margin: 0em 0em 0em 10em}
+
+            .container3 { position: absolute; height: 25em;width: 35em;
+                margin: 0em 0em 0em 5.5em ;}
+
+                .container4 { height: 35em; width: 45em; border: 2px solid #000000; margin: 1em 0em 0em 0.75em; background-color: #00000080;}
+
+
+               
+
+
+nav { grid-column: span 2;}
+main { grid-column: span 8;}
+
+/*medium device wrapper settings*/
+
+.wrapper { display:block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
+    background-image: url("coffeemd.png"); background-repeat: no-repeat; margin: 0em 0em 0em 0em;}
+
+    .wrapper1 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
+        background-image: url("jic1.png"); background-repeat: no-repeat; margin: 8em 0em 0em -5.25em;}
+
+        .wrapper2 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
+            background-image: url("zegw1.png"); background-repeat: no-repeat; margin: 16em 0em 0em -5.25em;}
+
+            .wrapper3 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
+                background-image: url("pinkmas1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -14em;}
+                
+                .wrapper4 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
+                    background-image: url("responsive1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 0em;}
+
+                    .wrapper5{ display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
+                        background-image: url("xmas1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 14em;}
+
+                        .wrapper6{ display:inline-block; height: 16.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
+                            background-image: url("snow1.png"); background-repeat: no-repeat; margin: 24em 0em 0em -5.2em;}
+    
+                            .wrapper8{ display:block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
+                                background-image: url("green.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -8em;}
+    
+                                .wrapper7{ display:inline-block; height: 9em; width: 14em; border:  2px solid #ffffff; position: absolute;
+                                    background-image: url("classic2.png"); background-repeat: no-repeat; margin: 0.5em 0em 0em 1em;}
+        
+                                    .wrapper9{ display:inline-block; height: 9em; width: 14em; border:  2px solid #ffffff; position: absolute;
+                                        background-image: url("green3.png"); background-repeat: no-repeat; margin: 0.5em 0em 0em -16em;}
+        
+                 
+                                        .wrapper10{ display:inline-block; height: 9em; width: 14em; border:  2px solid #ffffff; position: absolute;
+                                            background-image: url("coffcup3.png"); background-repeat: no-repeat; margin: 12em 0em 0em -16em;}
+        
+                                            .wrapper11{ display:inline-block; height: 9em; width: 14em; border:  2px solid #ffffff; position: absolute;
+                                                background-image: url("responsive4.png"); background-repeat: no-repeat; margin: 12em 0em 0em 1em;}
+        
+        
+        
+
+
+        #xmasoffer { font-size: 2em; color: #f14703; padding: 0px; 
+            margin: 1em 0em .05em 0em; text-shadow:2px 2px 2px #ffffff;}
+            #h6 { color:#f14703; font-size: 0.85em; margin-top: 0.75em;text-shadow:1px 1px 1px #ffffff;padding-top: 2.5em;}
+            #desig { font-size: 0.5em;  margin-top: 2em;}
+            #cofbrk { color: #ffffff; font-size: 1em; margin-top: 0.75em; padding-top: 1em;} 
+            #zegfoot { float: right; margin: -2em 4em 0em 0em;}
+            
+            #zeg2 { float:left; margin: -2em 0em 0em 8em;}
+
+            #cl1 { font-size: 1.2em; margin: 4.5em 1em 0em 0em; font-weight: bold;}
+
+            #h1blk, #h2blk { font-size: 1.5em; color: #000000; padding: 0px; 
+                margin: 0.3375em 0em 0em 0em; text-shadow:1px 1px 1px #ffffff;}
+    
+            #aim { font-size: 1.22em;}
+    
+
+        
+/* Now new larger font settings*/
+
+h1 { font-size: 2em; color: #f14703; padding: 0px; 
+    margin: 0em 0em 0em 0em; text-shadow:4px 1.5px 1.5px #ffffff;}
+    h2 { color:#ffffff; font-size: 1.75em; margin-top: 2em;}
+
+    h3 { color:#f14703; font-size: 1.5em; margin-top: 3em;text-shadow:1px 1px 1px #ffffff;}
+  
+    h4 { color:#ffffff; font-size: 1.25em; margin-top: 2em;}
+  
+    h5 { color:#f14703; font-size: 1em; margin-top: 2em;text-shadow:1px 1px 1px #ffffff;}
+
+  
+    
+
+
+                }
+/*And finally @media for large devices*/
+
+@media only screen and ( min-width:62em ) {
+
+      /*setting font size for this screen*/
+
+
+    body { font-size: 1.5em;}
+
+    /*Again grid-container settings*/
+
+    .container { position: absolute; height: 31em; width: 15em;
+    margin: 0em 0em 0em 0em;}
+
+    .container0 {
+        position:absolute;
+        margin: 20.75em 0em 0em 12em;
+        height: 4em;
+        width: 20em;}
+
+    .container1 {
+        position:absolute;
+        margin: 3em 0em 0em 13em;
+        height: 4em;
+        width: 20em;}
+
+        .container1a {
+            position:absolute;
+            margin: 1em 0em 0em 13em;
+            height: 4em;
+            width: 20em;}
+
+   .container2 { position: absolute; height: 13em; width: 15em;
+margin: 0em 0em 0em 0.25em; }
+
+.container3 { position: absolute; height: 23em;width: 35em;
+    margin: 0em 0em 0em 5.5em ;}
+
+    .container4 { height: 25em; width: 45em; border: 2px solid #000000; margin: 1em 0em 0em 0.75em; background-color: #00000080;}
+
+    
+
+
+div.grid-container {
+    grid-template-rows: 14% 77.5% 10%; }
+
+nav { grid-column: span 2;}
+main { grid-column: span 6;}
+aside { grid-column: span 2;}
+
+div.flex-container >div {
+    padding:  0em 0em 0em 0em; background-color: #ecb603fa; border: 3px solid #000000; border-radius: 1.25em; height: 2em
+    ; width: 10em; margin: 0.5em 0em 0em 0em; font-size: 0.65em;}
+
+
+/*large device wrapper settings*/
+
+.wrapper { display:block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+    background-image: url("coffeelg.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em -0em;}
+
+    .wrapper1 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+        background-image: url("jic2.png"); background-repeat: no-repeat; margin: 10.3em 0em 0em -7.45em;}
+
+        .wrapper2 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+            background-image: url("zegw2.png"); background-repeat: no-repeat; margin: 20.4em 0em 0em -7.45em;}
+
+            .wrapper3 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+                background-image: url("pinkmas2.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em -7.5em;}
+
+                .wrapper4 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+                    background-image: url("responsive2.png"); background-repeat: no-repeat; margin: 10.3em 0em 0em -7.5em;}
+
+                    .wrapper5{ display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+                        background-image: url("xmas2.png"); background-repeat: no-repeat; margin: 20.4em 0em 0em -7.5em;}
+
+                        .wrapper7{ display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+                            background-image: url("classic1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 0em;}
+
+                            .wrapper9{ display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+                                background-image: url("green1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -16em;}
+
+         
+                                .wrapper10{ display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+                                    background-image: url("coffcup.png"); background-repeat: no-repeat; margin: 10.5em 0em 0em -16em;}
+
+                                    .wrapper11{ display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
+                                        background-image: url("responsive2.png"); background-repeat: no-repeat; margin: 10.5em 0em 0em 0em;}
+
+
+
+                        #cofbrk { color: #ffffff; font-size: 0.75em; margin-top: 0.75em; padding-top: 1em;} 
+        #xmasoffer { font-size: 2.25em; color: #f14703; padding: 0px; 
+            margin: 1em 0em .05em 0em; text-shadow:2px 2px 2px #ffffff;}
+            #h6 { color:#f14703; font-size: 1em; margin-top: 1.5em;text-shadow:1px 1px 1px #ffffff;padding-top: 3em;}
+            #desig { font-size: 0.5em;  margin-top: 2em;}
+    
+            #zegfoot { float: right; margin: -1.5em 20em 0em 0em;}
+            
+            #zeg2 { float:left; margin: -1.5em 0em 0em 20em;}
+
+            #sel { font-size: 1em; color:#ffffff; padding: 0.5em; text-shadow: 2px 2px 2px #000000;}
+
+            #cl1 { font-size: 1.3em; margin: 5.5em 1em 0em 0em; font-weight: bold;}
+            #h1blk, #h2blk { font-size: 1.4em; color: #000000; padding: 0px; 
+                margin: 0.3375em 0em 0em 0em; text-shadow:1px 1px 1px #ffffff;}
+    
+                #aim { font-size: 0.93em;}
+
+/*Even larger settings for font*/
+
+h1 { font-size: 2.5em; color: #f14703; padding: 0px; 
+    margin: 0.125em 0em 0em 0em; text-shadow:5px 2px 2px #ffffff;}
+    h2 { color:#ffffff; font-size: 1.2em; margin-top: 1.5em;}
+
+    h3 { color:#f14703; font-size: 1.2em; margin-top: 1.25em;text-shadow:1px 1px 1px #ffffff;}
+  
+    h4 { color:#ffffff; font-size: 1.2em; margin-top: 1em;}
+  
+    h5 { color:#f14703; font-size: 1.2em; margin-top: 0.5em;text-shadow:1px 1px 1px #ffffff;}
+
+    li, h6 { color: #ffffff; font-size: 1em; margin: 0em 0em 0em 1.5em; }
+
+
+    
+    
+
+
+}
+
+
+
+    
+
+        
+
