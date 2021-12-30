@@ -9,58 +9,9 @@
 
         <!--stylesheet library below-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
 
     </head>
     <body>
-        <div id="smart-button-container">
-        <div style="text-align: center;">
-          <div id="paypal-button-container"></div>
-        </div>
-      </div>
-    <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-    <script>
-      function initPayPalButton() {
-        paypal.Buttons({
-          style: {
-            shape: 'rect', 
-            color: 'gold',
-            layout: 'vertical',
-            label: 'paypal',
-            
-          },
-  
-          createOrder: function(data, actions) {
-            return actions.order.create({
-              purchase_units: [{"amount":{"currency_code":"USD","value":1}}]
-            });
-          },
-  
-          onApprove: function(data, actions) {
-            return actions.order.capture().then(function(orderData) {
-              
-              // Full available details
-              console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-  
-              // Show a success message within this page, e.g.
-              const element = document.getElementById('paypal-button-container');
-              element.innerHTML = '';
-              element.innerHTML = '<h3>Thank you for your payment!</h3>';
-  
-              // Or go to another URL:  actions.redirect('thank_you.html');
-              
-            });
-          },
-  
-          onError: function(err) {
-            console.log(err);
-          }
-        }).render('#paypal-button-container');
-      }
-      initPayPalButton();
-    </script>
-
-
 
         <!--start with a grid-container. Page can be divided by columns-->
 
@@ -95,39 +46,50 @@
 <!--Now adding the content for the <main> block-->
 
     <main>
-        <div class="container4">
 
-            <ol>
-                <h6>A few questions to ask</h6><br>
-                <li>Describe your business in a few sentences</li>
-                <li>Do you currently have a website?</li>
-                <li>What are your goals for this project?</li>
-                <li>Who is your target audience?</li>
-                <li>What specific features do you want on the site?</li>
-                <li>How can we avoid failure?</li>
-                <li> Who are your main competitors?</li>
-                <li>What makes you different from your competitors?</li>
-                <li>What’s the scope and budget of the project?</li>
-                <li>In your own words, what are the advantages of a static site?</li>
-            </ol><br>
+        <h1 id="xmasoffer">Christmas Offer</h1>
 
-            <P id="email">Email us at the address below to  claim FREE webpage</P><br>
-            
-            <p id= "email">Email: design@zegweb.com</p><br>
-            <p id="email">Or visit our social media sites below</p>
+        <div class="space"></div>
 
+        <h2>Free static webpage!<br><br>
+        
+        Free webhosting!</h2>
+
+    
+
+        <h3>Expert design using 100% code</h3>
+
+<div class="space">
+</div>
+
+
+
+        <h3>We also offer full static websites<br>
+        Website maintenance<br>
+        No CMS! Straightforward coding! Less breakages!<br></h3><br>
+
+        <div class="space">
 
         </div>
 
-        
+
+
+
+
+
+    <h4>Designing small but beautiful websites, ideal for small business, hobyist, crafts.</h4>
+
+    
+
+    
+
+    <h5>Optimized for Mobile, Laptop, Desktop</h5>
 
     <!--Below a container for social media-->
 
-
-
    
 
-    <div class="container1a">
+    <div class="container1">
 
         <a href="https://www.facebook.com/Zegwebcom-104898232069065" class="fa fa-facebook"></a>
         <a href="https://twitter.com/Codit_Zegweb" class="fa fa-twitter"></a>
@@ -162,7 +124,7 @@
 
              
             <p id="desig">Designed and built with 100% code. <br>
-             <small> Copyright &copy; ZEGWEB.COM </small> <br>Email: design@zegwe.com</p>
+             <small> Copyright &copy; ZEGWEB.COM </small> <br>Email: design@zegweb.com</p>
 
         <img src="zeg2-foot.png" id="zegfoot" alt="zeg">
 
