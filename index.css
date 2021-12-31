@@ -14,13 +14,15 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
     margin: 0.3375em 0em 0em 0em; text-shadow:3px 1px 1px #ffffff;}
     h2 { color:#ffffff; font-size: 1.75em; margin-top: 2em;}
 
-    h3 { color:#f14703; font-size: 1.5em; margin-top: 4em;text-shadow:1px 1px 1px #ffffff;}
+    h3 { color:#f14703; font-size: 1.5em; margin-top: 2em;text-shadow:1px 1px 1px #ffffff;}
   
     h4 { color:#ffffff; font-size: 1em; margin-top: 4em;}
   
-    h5 { color:#f14703; font-size: 1em; margin-top: 4em;text-shadow:1px 1px 1px #ffffff;}
+    h5 { color:#f14703; font-size: 1em; margin-top: 2em;text-shadow:1px 1px 1px #ffffff;}
 
-    li, h6 { color: #ffffff; font-size: 1.3em; margin: 0em 0em 0em 1.5em; }
+    li, h6 { color: #ffffff; font-size: 1.3em; margin: 0.75em 0em 0em 1.5em; }
+
+    ol { margin: 3em 0em 0em 0em;}
 
     
   
@@ -34,7 +36,7 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
             width: 100vw;
             height: 100vh;
             grid-template-columns: repeat(10, 1fr);
-            grid-template-rows: 10% 10% 87% 10% 6%;}
+            grid-template-rows: 10% 10% 70% 10% 6%;}
 
             div.flex-container {
                 display: flex;
@@ -67,15 +69,12 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
 
               .container1 {
                 position:absolute;
-                margin: 1em 0em 0em 5em;
+                margin: 3em 0em 0em 5em;
                 height: 4em;
                 width: 20em;}
 
-                .container1a {
-                    position:absolute;
-                    margin: 2em 0em 0em 5em;
-                    height: 4em;
-                    width: 20em;}
+            
+        
 
                 
                 .container2 { position: absolute; height: 5.5em;width: 28em;
@@ -85,14 +84,12 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
                 .container3 { position: absolute; height: 22em;width: 32em;
                     margin: 0em 0em 0em 1em ; }
 
-                 .container4 { height: 32em; width: 30em; border: 2px solid #000000; margin: 14em 0em 0em 0.75em; background-color: #00000080;}
+                 .container4 { height: 38em; width: 30em; border: 2px solid #000000; margin: 1em 0em 0em 0.75em; background-color: #00000080;}
 
-                   
-                  
-                    
-                       
-
-                            
+                 .container5 { position: absolute; height: 15em;width: 12em;
+                    margin: 12em 0em 0em 10em ; border: 2px solid #000000; background-color: #007bb5;}
+                
+                
     
  /*Now the settings for {header, footer, nav, aside} below*/
 
@@ -204,19 +201,26 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
 
         #aim { font-size: 0.90em; background-color: #ffffff80; padding: 0.25em; margin: 2em 0em 2em 0em}
 
-        #home, #templates, #ouraim, #contact  { text-decoration: none; color: #ffffff; padding: 0.15em;}
+        #home, #templates, #ouraim, #contact, #layout  { text-decoration: none; color: #ffffff; padding: 0.15em;}
 
-        #home:hover, #ouraim:hover, #templates:hover, #contact:hover { background-color: #f14703; cursor: pointer; color:#000000;}
+        #home:hover, #ouraim:hover, #templates:hover, #contact:hover, #layout:hover { background-color: #f14703; cursor: pointer; color:#ffffff;}
 
-        #home:visited, #ouraim:visited, #templates:visited, #contact:visited { color: #000000 ; text-decoration: none;}
+        #home:visited, #ouraim:visited, #templates:visited, #contact:visited, #layout:visited { color: #000000 ; text-decoration: none;}
 
-        #email { font-size: 1.5em; color: #ffffff;}
+        #email { font-size: 1.5em; color: #ffffff; margin: 19em 0em 0em 0em;}
 
         #smart-button-container { 
-            height: 3em; width: auto; margin: 13em 0em 0em 9em ; position: absolute;
+            height: 3em; width: auto; margin: 14em 0em 0em 10em ; position: absolute;
         }
+        #claim { color: #ff0000;}
+
+        #sbm { margin-top: 1em; background-color: cyan;}
+
+        #sbm:hover { background-color: #000000; color: #ff0000;}
 
         
+
+  
 
         
 /* Now on to medium devices with @media query*/
@@ -231,7 +235,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
 
 
 div.grid-container {
-    grid-template-rows: 10% 87% 13% 8%;}
+    grid-template-rows: 10% 83% 13% 8%;}
 
     div.flex-container >div {
         padding:  0em 0em 0em 0em; background-color: #ecb603fa; border: 3px solid #000000; border-radius: 1.25em; height: 2em
@@ -248,16 +252,11 @@ div.grid-container {
 
         .container1 {
             position:absolute;
-            margin: 2em 0em 0em 14em;
+            margin: 4em 0em 0em 14em;
             height: 4em;
             width: 20em;}
 
 
-            .container1a {
-                position:absolute;
-                margin: 1em 0em 0em 14em;
-                height: 4em;
-                width: 20em;}
 
 
             .container2 { position: absolute; height: 7em;width: 40em; 
@@ -266,9 +265,13 @@ div.grid-container {
             .container3 { position: absolute; height: 25em;width: 35em;
                 margin: 0em 0em 0em 5.5em ;}
 
-                .container4 { height: 35em; width: 45em; border: 2px solid #000000; margin: 12em 0em 0em 0.75em; background-color: #00000080;}
+                .container4 { height: 45em; width: 45em; border: 2px solid #000000; margin: 1em 0em 0em 0.75em; background-color: #00000080;}
 
-
+                .container5 { position: absolute; height: 12em;width: 20em;
+                    margin: 15em 0em 0em 14em ; border: 2px solid #000000; background-color: #007bb5;}
+                
+                
+            
                
 
 
@@ -278,7 +281,7 @@ main { grid-column: span 8;}
 /*medium device wrapper settings*/
 
 .wrapper { display:block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
-    background-image: url("coffeemd.png"); background-repeat: no-repeat; margin: 0em 0em 0em 0em;}
+    background-image: url("coffeemd.png"); background-repeat: no-repeat; margin: 0.5em 0em 0em 0em;}
 
     .wrapper1 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
         background-image: url("jic1.png"); background-repeat: no-repeat; margin: 10em 0em 0em -5.25em;}
@@ -335,11 +338,20 @@ main { grid-column: span 8;}
             #aim { font-size: 1.22em;margin: 1em 0em 1em 0em;}
 
             #smart-button-container { 
-                height: 2em; width:12em ; margin: 8em 0em 0em 30em ; position: absolute;
+                height: 2em; width:12em ; margin: 10em 0em 0em 30em ; position: absolute;
                 
             }
 
             #sel { font-size: 1.5em; color:#ffffff; padding: 0.5em; text-shadow: 2px 2px 2px #000000; margin-top: 2em;}
+
+            #email { font-size: 1.5em; color: #ffffff; margin: 24em 0em 0em 0em;}
+
+            #sbm { height: 2em; width: 4em; margin-top: 1em; background-color: cyan;}
+
+            #sbm:hover { background-color: #000000; color: #ff0000;}
+
+    
+
 
 
         
@@ -354,6 +366,10 @@ h1 { font-size: 2em; color: #f14703; padding: 0px;
     h4 { color:#ffffff; font-size: 1.25em; margin-top: 4em;}
   
     h5 { color:#f14703; font-size: 1em; margin-top: 3em;text-shadow:1px 1px 1px #ffffff;}
+
+    li, h6 { color: #ffffff; font-size: 1.7em; margin: 0.75em 0em 0em 1.5em; }
+    ol { margin: 4em 0em 0em 0em;}
+
 
   
     
@@ -406,11 +422,16 @@ margin: 0em 0em 0em 0.25em; }
 
     .container4 { height: 33em; width: 45em; border: 2px solid #000000; margin: 1em 0em 0em 0.75em; background-color: #00000080;}
 
+    .container5 { position: absolute; height: 12em;width: 25em;
+        margin: 10em 0em 0em 12em ; border: 2px solid #000000;}
+    
+   
+
     
 
 
 div.grid-container {
-    grid-template-rows: 14% 95% 10%; }
+    grid-template-rows: 14% 92% 10% ; }
 
 nav { grid-column: span 2;}
 main { grid-column: span 6;}
@@ -424,13 +445,13 @@ div.flex-container >div {
 /*large device wrapper settings*/
 
 .wrapper { display:block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
-    background-image: url("coffeelg.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em -0em;}
+    background-image: url("coffeelg.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em 0.7em;}
 
     .wrapper1 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
-        background-image: url("jic2.png"); background-repeat: no-repeat; margin: 13em 0em 0em -7.45em;}
+        background-image: url("jic2.png"); background-repeat: no-repeat; margin: 13em 0em 0em -6.83em;}
 
         .wrapper2 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
-            background-image: url("zegw2.png"); background-repeat: no-repeat; margin: 26em 0em 0em -7.45em;}
+            background-image: url("zegw2.png"); background-repeat: no-repeat; margin: 26em 0em 0em -6.83em;}
 
             .wrapper3 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
                 background-image: url("pinkmas2.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em -7.5em;}
@@ -470,14 +491,22 @@ div.flex-container >div {
 
             #cl1 { font-size: 1.3em; margin: 5.5em 1em 0em 0em; font-weight: bold;}
             #h1blk, #h2blk { font-size: 1.4em; color: #000000; padding: 0px; 
-                margin: 0.3375em 0em 0em 0em; text-shadow:1px 1px 1px #ffffff;}
+                margin: 0.75em 0em 0em 0em; text-shadow:1px 1px 1px #ffffff;}
     
                 #aim { font-size: 1.1em; margin: 0em 0em 0em 0em;}
 
                 #smart-button-container { 
-                    height: 3em; width: 15em; margin: 7em 0em 0em 32.5em ; position: absolute;
+                    height: 3em; width: 15em; margin: 7em 0em 0em 33em ; position: absolute;
                 }
 
+                #txtar { height: 4em; width: 25em;}
+                #eml  { height: 2em; width: 25em;}
+                #nme  { height: 2em; width: 25em;}
+                #msg { margin-left: 1em;}
+                #sbm { height: 3em; width: 6em; margin-top: 1em; background-color: cyan;}
+
+                #sbm:hover { background-color: #000000; color: #ff0000;}
+                
 /*Even larger settings for font*/
 
 h1 { font-size: 2.5em; color: #f14703; padding: 0px; 
@@ -490,8 +519,8 @@ h1 { font-size: 2.5em; color: #f14703; padding: 0px;
   
     h5 { color:#f14703; font-size: 1.2em; margin-top: 3em;text-shadow:1px 1px 1px #ffffff;}
 
-    li, h6 { color: #ffffff; font-size: 1em; margin: 0em 0em 0em 1.5em; }
-    ol { margin: 8em 0em 0em 0em;}
+    li, h6 { color: #ffffff; font-size: 1em; margin: 1em 0em 0em 1.5em; }
+    ol { margin: 4em 0em 0em 0em;}
 
 
     

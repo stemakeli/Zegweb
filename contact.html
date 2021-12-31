@@ -72,6 +72,7 @@
                 <div id="home"><a id="home" href="index.html" title="Go Back!">Home</a></div>
                 <div id="templates"><a id="templates" href="templates.html" title="Some Examples">Templates</a></div>
                 <div id="ouraim"><a id="ouraim" href="ouraim.html" title="Simply, Symplicity">Our Aim</a></div>
+                <div id="layout"><a id="layout" href="layout.html" title="Your Layout">Layout</a></div>
                 <div id="contact"><a id="contact" href="contact.html" title="Get in touch">Contact us</a></div>
                 </div>
             </header>
@@ -95,30 +96,39 @@
 <!--Now adding the content for the <main> block-->
 
     <main>
-        <div class="container4">
 
-            <ol>
-                <h6>A few questions to ask</h6><br>
-                <li>Describe your business in a few sentences</li>
-                <li>Do you currently have a website?</li>
-                <li>What are your goals for this project?</li>
-                <li>Who is your target audience?</li>
-                <li>What specific features do you want on the site?</li>
-                <li>How can we avoid failure?</li>
-                <li> Who are your main competitors?</li>
-                <li>What makes you different from your competitors?</li>
-                <li>What’s the scope and budget of the project?</li>
-                <li>In your own words, what are the advantages of a static site?</li>
-            </ol><br>
+      <div class="container5">
+        <br>
 
-            <P id="email">Email us at the address below to  claim FREE webpage</P><br>
-            
-            <p id= "email">Email: design@zegweb.com</p><br>
-            <p id="email">Or visit our social media sites below</p>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input id="nme" type="text" name="name" /></label>   
+        </p><br>
+        <p>
+          <label>Your Email: <input id="eml" type="email" name="email" /></label>
+        </p><br>
+      
+        <p>
+          <label id="msg">Message: <textarea id="txtar" name="message"></textarea></label>
+        </p>
+        <p>
+          <button id="sbm" type="submit">Send</button>
+        </p>
 
-
+        </form>
         </div>
 
+      
+      <P id="email">Email or message us to <br> <span id="claim">claim FREE webpage></span> <br>
+            
+      Email: design@zegweb.com<br>
+      
+      Or visit our social media sites below</p>
+
+    
+        
+
+       
         
 
     <!--Below a container for social media-->
@@ -127,7 +137,7 @@
 
    
 
-    <div class="container1a">
+    <div class="container1">
 
         <a href="https://www.facebook.com/Zegwebcom-104898232069065" class="fa fa-facebook"></a>
         <a href="https://twitter.com/Codit_Zegweb" class="fa fa-twitter"></a>
