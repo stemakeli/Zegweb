@@ -180,7 +180,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
 
     /* Below css #id settings*/
 
-        #xmasoffer { font-size: 2em; color: #f14703; padding: 0px; 
+        #offer { font-size: 2em; color: #f14703; padding: 0px; 
         margin: 1em 0em .05em 0em; text-shadow:2px 2px 2px #ffffff;}
         #h6 { color:#f14703; font-size: 0.75em; margin-top: 0.75em;text-shadow:1px 1px 1px #ffffff;padding-top: 1em;}
         #cofbrk { color: #ffffff; font-size: 0.75em; margin-top: 0.75em; 
@@ -321,7 +321,7 @@ main { grid-column: span 8;}
         
 
 
-        #xmasoffer { font-size: 2em; color: #f14703; padding: 0px; 
+        #offer { font-size: 2em; color: #f14703; padding: 0px; 
             margin: 1em 0em .05em 0em; text-shadow:2px 2px 2px #ffffff;}
             #h6 { color:#f14703; font-size: 0.85em; margin-top: 0.75em;text-shadow:1px 1px 1px #ffffff;padding-top: 2.5em;}
             #desig { font-size: 0.5em;  margin-top: 2em;}
@@ -478,7 +478,7 @@ div.flex-container >div {
 
 
                         #cofbrk { color: #ffffff; font-size: 0.75em; margin-top: 0.75em; padding-top: 1em;} 
-        #xmasoffer { font-size: 2.25em; color: #f14703; padding: 0px; 
+        #offer { font-size: 2.25em; color: #f14703; padding: 0px; 
             margin: 1em 0em .05em 0em; text-shadow:2px 2px 2px #ffffff;}
             #h6 { color:#f14703; font-size: 1em; margin-top: 1.5em;text-shadow:1px 1px 1px #ffffff;padding-top: 3em;}
             #desig { font-size: 0.5em;  margin-top: 2em;}
