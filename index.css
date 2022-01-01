@@ -14,11 +14,11 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
     margin: 0.3375em 0em 0em 0em; text-shadow:3px 1px 1px #ffffff;}
     h2 { color:#ffffff; font-size: 1.75em; margin-top: 2em;}
 
-    h3 { color:#f14703; font-size: 1.5em; margin-top: 2em;text-shadow:1px 1px 1px #ffffff;}
+    h3 { color:#f14703; font-size: 1.5em; margin-top: 2em;text-shadow:1px 1px 0.5px #ffffff;}
   
-    h4 { color:#ffffff; font-size: 1em; margin-top: 4em;}
+    h4 { color:#ffffff; font-size: 1em; margin-top: 2em;}
   
-    h5 { color:#f14703; font-size: 1em; margin-top: 2em;text-shadow:1px 1px 1px #ffffff;}
+    h5 { color:#f14703; font-size: 1em; margin-top: 2em;text-shadow:1px 1px 0.5px #ffffff;}
 
     li, h6 { color: #ffffff; font-size: 1.3em; margin: 0.75em 0em 0em 1.5em; }
 
@@ -37,7 +37,7 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
             width: 100vw;
             height: 100vh;
             grid-template-columns: repeat(10, 1fr);
-            grid-template-rows: 10% 10% 70% 10% 6%;}
+            grid-template-rows: 10% 10% 72% 10% 6%;}
 
             div.flex-container {
                 display: flex;
@@ -63,13 +63,13 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
             margin: 0em 0em 0em 1.5em;}
 
             .container0 {
-                position:absolute;
+                position:relative;
                 margin: 22em 0em 0em 4em;
                 height: 4em;
                 width: 20em;}
 
               .container1 {
-                position:absolute;
+                position:relative;
                 margin: 3em 0em 0em 5em;
                 height: 4em;
                 width: 20em;}
@@ -125,20 +125,20 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
 
                           .wrapper5{ display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
                             background-image: url("20221.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 5.5em;}
-
+       /*-------------------------------------------------------------------------------------------------------------------------------------------*/
 
                             .wrapper7{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute;
-                                background-image: url("classic.png"); background-repeat: no-repeat; margin: 2em 0em 0em -2em; list-style-type: none;}
+                                background-image: url("classic.png"); background-repeat: no-repeat; margin: -1em 0em 0em -2em; list-style-type: none;}
     
                                 .wrapper9{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute; list-style-type: none;
-                                    background-image: url("green2.png"); background-repeat: no-repeat; margin: 2em 0em 0em -17em;}
+                                    background-image: url("green2.png"); background-repeat: no-repeat; margin: -1em 0em 0em -17em;}
     
              
                                     .wrapper10{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute; list-style-type: none;
-                                        background-image: url("coffcup2.png"); background-repeat: no-repeat; margin: 12em 0em 0em -17em;}
+                                        background-image: url("coffcup2.png"); background-repeat: no-repeat; margin: 9em 0em 0em -17em;}
     
                                         .wrapper11{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute; list-style-type: none;
-                                            background-image: url("responsive3.png"); background-repeat: no-repeat; margin: 12em 0em 0em -2em;}
+                                            background-image: url("responsive3.png"); background-repeat: no-repeat; margin: 9em 0em 0em -2em;}
     
     
                             
@@ -192,7 +192,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
         
         #zeg2 { float:left; margin: -2.5em 0em 0em 20em;}
 
-        #sel { font-size: 1.5em; color:#ffffff; padding: 0.5em; text-shadow: 2px 2px 2px #000000; margin:2em 0em 2em 0em;}
+        #sel { font-size: 1.5em; color:#ffffff; padding: 0.5em; text-shadow: 2px 2px 1.5px #000000; margin:1em 0em 2em 0em;}
 
         #cl1 { font-size: 1em; margin: 5em 1em 0em 0em; font-weight: bold;}
 
@@ -201,7 +201,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
         #h1blk, #h2blk { font-size: 1.5em; color: #000000; padding: 0px; 
             margin: 0.3375em 0em 0em 0em; text-shadow:2px 2px 1px #ffffff;}
 
-        #aim { font-size: 0.90em; background-color: #ffffff90; padding: 0.25em; margin: 2em 0em 2em 0em}
+        #aim { font-size: 0.90em; background-color: #ffffff90; padding: 0.25em; margin: 0.5em 0em 0.75em 0em}
 
         #home, #templates, #ouraim, #contact, #layout  { text-decoration: none; color: #ffffff; padding: 0.15em;}
 
@@ -223,7 +223,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
         
 
   
-
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
         
 /* Now on to medium devices with @media query*/
 
@@ -253,8 +253,8 @@ div.grid-container {
             width: 20em;}
 
         .container1 {
-            position:absolute;
-            margin: 4em 0em 0em 14em;
+            position:relative;
+            margin: 3em 0em 0em 14em;
             height: 4em;
             width: 20em;}
 
@@ -305,19 +305,19 @@ main { grid-column: span 8;}
     
                             .wrapper8{ display:block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
                                 background-image: url("green.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -8em;}
-    
+    /*----------------------------------------------------------------------------------------------------------------------------------------------*/
                                 .wrapper7{ display:inline-block; height: 9em; width: 14em; border:  2px solid #ffffff; position: absolute;
-                                    background-image: url("classic2.png"); background-repeat: no-repeat; margin: 4em 0em 0em 1em;}
+                                    background-image: url("classic2.png"); background-repeat: no-repeat; margin: 5em 0em 0em 1em;}
         
                                     .wrapper9{ display:inline-block; height: 9em; width: 14em; border:  2px solid #ffffff; position: absolute;
-                                        background-image: url("green3.png"); background-repeat: no-repeat; margin: 4em 0em 0em -16em;}
+                                        background-image: url("green3.png"); background-repeat: no-repeat; margin: 5em 0em 0em -16em;}
         
                  
                                         .wrapper10{ display:inline-block; height: 9em; width: 14em; border:  2px solid #ffffff; position: absolute;
-                                            background-image: url("coffcup3.png"); background-repeat: no-repeat; margin: 16em 0em 0em -16em;}
+                                            background-image: url("coffcup3.png"); background-repeat: no-repeat; margin: 17em 0em 0em -16em;}
         
                                             .wrapper11{ display:inline-block; height: 9em; width: 14em; border:  2px solid #ffffff; position: absolute;
-                                                background-image: url("responsive4.png"); background-repeat: no-repeat; margin: 16em 0em 0em 1em;}
+                                                background-image: url("responsive4.png"); background-repeat: no-repeat; margin: 17em 0em 0em 1em;}
         
         
         
@@ -337,7 +337,7 @@ main { grid-column: span 8;}
             #h1blk, #h2blk { font-size: 1.5em; color: #000000; padding: 0px; 
                 margin: 0.3375em 0em 0em 0em; text-shadow:2px 2px 1px #ffffff;}
     
-            #aim { font-size: 1.22em;margin: 1em 0em 1em 0em;}
+            #aim { font-size: 1.22em;margin: 1.5em 0em 1.5em 0em;}
 
             #smart-button-container { 
                 height: 2em; width:12em ; margin: 10em 0em 0em 30em ; position: absolute;
@@ -363,11 +363,11 @@ h1 { font-size: 2em; color: #f14703; padding: 0px;
     margin: 0em 0em 0em 0em; text-shadow:4px 1.5px 1.5px #ffffff;}
     h2 { color:#ffffff; font-size: 1.75em; margin-top: 4em;}
 
-    h3 { color:#f14703; font-size: 1.5em; margin-top: 3em;text-shadow:1px 1px 1px #ffffff;}
+    h3 { color:#f14703; font-size: 1.5em; margin-top: 3em;text-shadow:1px 1px 0.5px #ffffff;}
   
-    h4 { color:#ffffff; font-size: 1.25em; margin-top: 4em;}
+    h4 { color:#ffffff; font-size: 1.25em; margin-top: 2em;}
   
-    h5 { color:#f14703; font-size: 1em; margin-top: 3em;text-shadow:1px 1px 1px #ffffff;}
+    h5 { color:#f14703; font-size: 1em; margin-top: 2em;text-shadow:1px 1px 0.5px #ffffff;}
 
     li, h6 { color: #ffffff; font-size: 1.7em; margin: 0.75em 0em 0em 1.5em; }
     ol { margin: 4em 0em 0em 0em;}
@@ -376,7 +376,7 @@ h1 { font-size: 2em; color: #f14703; padding: 0px;
   
     
 
-
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
                 }
 /*And finally @media for large devices*/
 
@@ -518,11 +518,11 @@ h1 { font-size: 2.5em; color: #f14703; padding: 0px;
     margin: 0.125em 0em 0em 0em; text-shadow:5px 2px 2px #ffffff;}
     h2 { color:#ffffff; font-size: 1.2em; margin-top: 2em;}
 
-    h3 { color:#f14703; font-size: 1.2em; margin-top: 3em;text-shadow:1px 1px 1px #ffffff;}
+    h3 { color:#f14703; font-size: 1.2em; margin-top: 3em;text-shadow:1px 1px 0.5px #ffffff;}
   
     h4 { color:#ffffff; font-size: 1.2em; margin-top: 2em;}
   
-    h5 { color:#f14703; font-size: 1.2em; margin-top: 3em;text-shadow:1px 1px 1px #ffffff;}
+    h5 { color:#f14703; font-size: 1.2em; margin-top: 3em;text-shadow:1px 1px 0.5px #ffffff;}
 
     li, h6 { color: #ffffff; font-size: 1em; margin: 1em 0em 0em 1.5em; }
     ol { margin: 4em 0em 0em 0em;}
