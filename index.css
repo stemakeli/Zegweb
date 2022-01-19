@@ -3,7 +3,7 @@
 /*starting with small devices*/
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 body { font-family:  Georgia, 'Times New Roman', Times, serif; text-align: center; }
-main { background-image: url(fireworks.png); background-repeat: no-repeat; background-size: cover;}
+main { background-image: url(frostyberry.png); background-repeat: no-repeat; background-size: cover;}
 
   
 
@@ -64,7 +64,7 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
 
             .container0 {
                 position:relative;
-                margin: 22em 0em 0em 4em;
+                margin: 23em 0em 0em 4em;
                 height: 4em;
                 width: 20em;}
 
@@ -118,7 +118,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
                 background-image: url("zegw.png"); background-repeat: no-repeat; margin: 0em 0em 0em 5.5em;}
 
                 .wrapper3 { display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
-                    background-image: url("fireworks1a.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -13.5em;}
+                    background-image: url("frostyberry1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -13.5em;}
           
                     .wrapper4 { display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
                           background-image: url("responsive.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -4em;}
@@ -135,10 +135,10 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
     
              
                                     .wrapper10{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute; list-style-type: none;
-                                        background-image: url("coffcup2.png"); background-repeat: no-repeat; margin: 9em 0em 0em -17em;}
+                                        background-image: url("coffcup2.png"); background-repeat: no-repeat; margin: 10em 0em 0em -17em;}
     
                                         .wrapper11{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute; list-style-type: none;
-                                            background-image: url("responsive3.png"); background-repeat: no-repeat; margin: 9em 0em 0em -2em;}
+                                            background-image: url("responsive3.png"); background-repeat: no-repeat; margin: 10em 0em 0em -2em;}
     
     
                             
@@ -237,7 +237,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
 
 
 div.grid-container {
-    grid-template-rows: 10% 83% 13% 8%;}
+    grid-template-rows: 10% 80% 13% 8%;}
 
     div.flex-container >div {
         padding:  0em 0em 0em 0em; background-color: #ecb603fa; border: 3px solid #000000; border-radius: 1.25em; height: 2em
@@ -248,7 +248,7 @@ div.grid-container {
 
         .container0 {
             position:absolute;
-            margin: 30em 0em 0em 14em;
+            margin: 28em 0em 0em 14em;
             height: 4em;
             width: 20em;}
 
@@ -267,7 +267,7 @@ div.grid-container {
             .container3 { position: absolute; height: 25em;width: 35em;
                 margin: 0em 0em 0em 5.5em ;}
 
-                .container4 { height: 45em; width: 45em; border: 2px solid #000000; margin: 1em 0em 0em 0.75em; background-color: #00000080;}
+                .container4 { height: 43em; width: 45em; border: 2px solid #000000; margin: 1em 0em 0em 0.75em; background-color: #00000080;}
 
                 .container5 { position: absolute; height: 12em;width: 20em;
                     margin: 22em 0em 0em 14em ; border: 2px solid #000000; background-color: #007bb5;}
@@ -292,7 +292,7 @@ main { grid-column: span 8;}
             background-image: url("zegw1.png"); background-repeat: no-repeat; margin: 20em 0em 0em -5.25em;}
 
             .wrapper3 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
-                background-image: url("fireworks1b.png"); background-repeat: no-repeat; margin: 0em 0em 0em -15em;}
+                background-image: url("frostyberry2.png"); background-repeat: no-repeat; margin: 0em 0em 0em -15em;}
                 
                 .wrapper4 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
                     background-image: url("responsive1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 0em;}
@@ -394,7 +394,7 @@ h1 { font-size: 2em; color: #f14703; padding: 0px;
 
     .container0 {
         position:absolute;
-        margin: 25em 0em 0em 12em;
+        margin: 25.5em 0em 0em 12em;
         height: 4em;
         width: 20em;}
 
@@ -456,7 +456,7 @@ div.flex-container >div {
             background-image: url("zegw2.png"); background-repeat: no-repeat; margin: 26em 0em 0em -6.83em;}
 
             .wrapper3 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
-                background-image: url("fireworks1c.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em -7.5em;}
+                background-image: url("frostyberry3.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em -7.5em;}
 
                 .wrapper4 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
                     background-image: url("responsive2.png"); background-repeat: no-repeat; margin: 13em 0em 0em -7.5em;}
@@ -522,7 +522,7 @@ h1 { font-size: 2.5em; color: #f14703; padding: 0px;
   
     h4 { color:#ffffff; font-size: 1.2em; margin-top: 2em;}
   
-    h5 { color:#f14703; font-size: 1.2em; margin-top: 3em;text-shadow:1px 1px 0.5px #ffffff;}
+    h5 { color:#f14703; font-size: 1.2em; margin-top: 2em;text-shadow:1px 1px 0.5px #ffffff;}
 
     li, h6 { color: #ffffff; font-size: 1em; margin: 1em 0em 0em 1.5em; }
     ol { margin: 4em 0em 0em 0em;}
