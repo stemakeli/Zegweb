@@ -3,7 +3,7 @@
 /*starting with small devices*/
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 body { font-family:  Georgia, 'Times New Roman', Times, serif; text-align: center; }
-main { background-image: url(frostyberry.png); background-repeat: no-repeat; background-size: cover;}
+main { background-image: url(lambs.png); background-repeat: no-repeat; background-size: cover;}
 
   
 
@@ -118,13 +118,13 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
                 background-image: url("zegw.png"); background-repeat: no-repeat; margin: 0em 0em 0em 5.5em;}
 
                 .wrapper3 { display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
-                    background-image: url("frostyberry1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -13.5em;}
+                    background-image: url("spring2.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -13.5em;}
           
                     .wrapper4 { display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
                           background-image: url("responsive.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em -4em;}
 
                           .wrapper5{ display:inline-block; height: 5em; width: 8em; border:  2px solid #ffffff; position: absolute;
-                            background-image: url("20221.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 5.5em;}
+                            background-image: url("daff2.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 5.5em;}
        /*-------------------------------------------------------------------------------------------------------------------------------------------*/
 
                             .wrapper7{ display:inline-block; height: 8em; width: 13em; border:  2px solid #ffffff; position: absolute;
@@ -292,13 +292,13 @@ main { grid-column: span 8;}
             background-image: url("zegw1.png"); background-repeat: no-repeat; margin: 20em 0em 0em -5.25em;}
 
             .wrapper3 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
-                background-image: url("frostyberry2.png"); background-repeat: no-repeat; margin: 0em 0em 0em -15em;}
+                background-image: url("spring1.png"); background-repeat: no-repeat; margin: 0em 0em 0em -15em;}
                 
                 .wrapper4 { display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
                     background-image: url("responsive1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 0em;}
 
                     .wrapper5{ display:inline-block; height: 6.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
-                        background-image: url("20221a.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 14em;}
+                        background-image: url("daff1.png"); background-repeat: no-repeat; margin: 0.25em 0em 0em 14em;}
 
                         .wrapper6{ display:inline-block; height: 16.5em; width: 10.5em; border:  2px solid #ffffff; position: absolute;
                             background-image: url("snow1.png"); background-repeat: no-repeat; margin: 30em 0em 0em -5.2em;}
@@ -456,13 +456,13 @@ div.flex-container >div {
             background-image: url("zegw2.png"); background-repeat: no-repeat; margin: 26em 0em 0em -6.83em;}
 
             .wrapper3 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
-                background-image: url("frostyberry3.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em -7.5em;}
+                background-image: url("spring.png"); background-repeat: no-repeat; margin: 0.2em 0em 0em -7.5em;}
 
                 .wrapper4 { display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
                     background-image: url("responsive2.png"); background-repeat: no-repeat; margin: 13em 0em 0em -7.5em;}
 
                     .wrapper5{ display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
-                        background-image: url("20221b.png"); background-repeat: no-repeat; margin: 26em 0em 0em -7.5em;}
+                        background-image: url("daff.png"); background-repeat: no-repeat; margin: 26em 0em 0em -7.5em;}
 
                         .wrapper7{ display:inline-block; height: 10em; width: 15em; border:  2px solid #ffffff; position: absolute;
                             background-image: url("classic1.png"); background-repeat: no-repeat; margin: 1em 0em 0em 0em;}
@@ -538,5 +538,4 @@ h1 { font-size: 2.5em; color: #f14703; padding: 0px;
 
     
 
-        
-
+    
