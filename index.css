@@ -3,7 +3,8 @@
 /*starting with small devices*/
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 body { font-family:  Georgia, 'Times New Roman', Times, serif; text-align: center; }
-main { background-image: url(lambs.png); background-repeat: no-repeat; background-size: cover;}
+main /*{ background-image: url(lambs.png); background-repeat: no-repeat; background-size: cover;} */ { background-color: black;}
+
 
   
 
@@ -96,8 +97,8 @@ h1 { font-size: 1.5em; color: #f14703; padding: 0px;
 
 header { display:flow-root; text-align: center;}
 
-header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022d);
-        color: #06022d; color: #ffffff;}
+header, footer, nav, aside /*{ background:linear-gradient(45deg, #1f109e90, #06022d);
+        color: #06022d; color: #ffffff;}*/ { background-color: black;}
 
 
     header { grid-column: span 10;}
@@ -196,7 +197,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
 
         #cl1 { font-size: 1em; margin: 5em 1em 0em 0em; font-weight: bold;}
 
-        #cont { background: #62c8e7;}
+        #cont { background: black;}
 
         #h1blk, #h2blk { font-size: 1.5em; color: #000000; padding: 0px; 
             margin: 0.3375em 0em 0em 0em; text-shadow:2px 2px 1px #ffffff;}
@@ -219,6 +220,7 @@ header, footer, nav, aside { background:linear-gradient(45deg, #1f109e90, #06022
         #sbm { margin-top: 1em; background-color: cyan;}
 
         #sbm:hover { background-color: #000000; color: #ff0000;}
+        small { color: white; font-size: 20;}
 
         
 
